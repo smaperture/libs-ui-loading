@@ -1,0 +1,17 @@
+{
+  "root": "libs/ui-loading",
+  "projectType": "library",
+  "sourceRoot": "libs/ui-loading",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-script",
+      "options": {
+        "script": "build"
+      },
+      "outputs": [
+        "lib"
+      ]
+    }
+  },
+  "tags": []
+}
