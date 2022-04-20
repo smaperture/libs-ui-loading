@@ -3,6 +3,8 @@ import { ActivityIndicator, withTheme } from 'react-native-paper';
 import { StyleSheet } from 'react-native';
 
 const DisplayLoading: React.FC = () => {
+  const styles = createStyles();
+
   return (
     <ActivityIndicator
       animating={true}
@@ -12,7 +14,7 @@ const DisplayLoading: React.FC = () => {
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = () => StyleSheet.create({
   container: {
     alignItems: 'center',
     flex: 1,
