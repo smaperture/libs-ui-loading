@@ -1,6 +1,6 @@
 {
   "name": "@smaperture/loading",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -15,11 +15,9 @@
     "prepare": "bob build",
     "test": "jest"
   },
-  "peerDependencies": {
-    "react": "17.0.1",
-    "react-native": "0.64.3"
-  },
   "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.3",
     "react-native-paper": "^4.12.0"
   },
   "devDependencies": {
